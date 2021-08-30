@@ -117,3 +117,40 @@ body{
 .join-btn:hover{
     opacity: 1;
 }
+.content-welcome2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.section{
+    display: flex;
+    width: 100%;
+    border-top: 7px solid #222222;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.section .txt{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0px 50px;
+
+}
+.section .txt h1{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.section .txt p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.section img{
+    margin: 0px 50px;
+
+}
