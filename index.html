@@ -163,3 +163,19 @@
             </div>
         </div>
     </section>
+    <div class="section footer">
+        <p class="p-uni">
+            Ready to watch? Click on Get Started to create or restart your membership.
+        </p>
+        <div>
+            <input type="text" id="email1" placeholder="  Email Address">
+            <button class="join-btn">Get Started  ></button>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("scroll" , function(){
+            var nav = document.querySelector(".nav");
+            nav.classList.toggle("active",window.scrollY > 100);
+        });
+    </script>

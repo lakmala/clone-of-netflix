@@ -217,3 +217,12 @@ section .cont1{
 .accordion-item:target .answer{
     max-height: 320px;
 }
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    border-top: 5px solid rgb(63, 63, 63);
+    background: black;
+}
