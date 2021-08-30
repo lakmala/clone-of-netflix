@@ -226,3 +226,28 @@ section .cont1{
     border-top: 5px solid rgb(63, 63, 63);
     background: black;
 }
+.foot1{
+    font-size: 15px;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: #fff;
+    opacity: 0.5;
+}
+.grid-container{
+   padding-left: 250px;
+   padding-right: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    opacity: 0.7;
+}
+.grid-container a{
+    text-align: left;
+   
+    font-size: 13px;
+    font-family: Helvetica;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+}
